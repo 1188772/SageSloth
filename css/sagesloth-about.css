@@ -1,0 +1,351 @@
+#about {
+    color: #A8D672;
+}
+
+/* ===== STORY-HERO ===== */
+.story-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 160px 72px 160px;
+    gap: 48px;
+}
+
+.story-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.eyebrow {
+    color: #70D6B2;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Roboto Mono";
+}
+
+.headline {
+    margin: 0px;
+    font-size: 56px;
+    line-height: 106%;
+    font-weight: 400;
+    width: 590px;
+}
+
+.introduction {
+    margin: 0px;
+    color: #9EAA9E;
+    font-size: 22px;
+    line-height: 155%;
+    width: 590px;
+}
+
+.mission-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8D672;
+    color: #142018;
+    padding: 10px 16px 10px 16px;
+    border-radius: 999px;
+    width: 219px;
+    font-size: 13px;
+}
+
+/* ===== PRINCIPLES ===== */
+.principles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #13201B;
+    padding: 96px 160px 96px 160px;
+    gap: 48px;
+}
+
+.principles-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#section-label {
+    color: #FFB893;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Roboto Mono";
+}
+
+.title {
+    margin: 0px;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+/* Principle-cards */
+.principle-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    width: 1120px;
+    height: 286px;
+}
+
+.principle-card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border: 1px solid #2B4037;
+    border-radius: 24px;
+    gap: 24px;
+    flex: 1;
+}
+
+.principle-card-title {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 380;
+}
+
+.description {
+    margin: 0px;
+    color: #9EAA9E;
+    font-size: 17px;
+}
+
+/* Card: Tiny resets win */
+#principle-symbol-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8D672;
+    color: #142018;
+    font-size: 24px;
+    border-radius: 16px;
+    width: 52px;
+    height: 52px;
+    font-family: "Roboto Mono";
+}
+
+/* Card: No perfect streaks */
+#principle-symbol-indigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C6B5FF;
+    color: #142018;
+    font-size: 24px;
+    border-radius: 16px;
+    width: 52px;
+    height: 52px;
+    font-family: "Roboto Mono";
+}
+
+/* Card: Keep the joy */
+#principle-symbol-salmon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB893;
+    color: #142018;
+    font-size: 24px;
+    border-radius: 16px;
+    width: 52px;
+    height: 52px;
+    font-family: "Roboto Mono";
+}
+
+/* ===== GUIDES ===== */
+.guides {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 160px 96px 160px;
+    gap: 48px;
+}
+
+.guides-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#guide-note {
+    margin: 0px;
+    color: #9EAA9E;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+/* Guide-cards */
+.guide-cards {
+    display: flex;
+    gap: 24px;
+    height: 470px;
+}
+
+/* Card: Mindfulness lead */
+#guide-card-green {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    background-color: #A8D672;
+    color: #142018;
+    border-radius: 24px;
+}
+
+/* Card: Game designer */
+#guide-card-indigo {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    background-color: #C6B5FF;
+    color: #142018;
+    border-radius: 24px;
+}
+
+/* Card: Community guide */
+#guide-card-salmon {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    background-color: #FFB893;
+    color: #142018;
+    border-radius: 24px;
+}
+
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.role {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.bio {
+    font: 14px;
+    line-height: 150%;
+}
+
+/* ===== PRESS-NOTES ===== */
+.press-notes {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 160px 96px 160px;
+    gap: 48px;
+}
+
+.press-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#all-notes-action {
+    background-color: #0B1210;
+    color: #9EAA9E;
+    border: #0B1210;
+    font-size: 14px;
+}
+
+/* Press-note-cards */
+.press-note-cards {
+    display: flex;
+    gap: 24px;
+}
+
+/* Card: Respawn Journal */
+#press-note-mint {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 24px;
+    background-color: #70D6B2;
+    color: #142018;
+    flex: 1;
+}
+
+/* Card: Cozy Input */
+#press-note-indigo {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 24px;
+    background-color: #C6B5FF;
+    color: #142018;
+    flex: 1;
+}
+
+/* Card: Patch Notes */
+#press-note-yellow {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 24px;
+    background-color: #E8DD63;
+    color: #142018;
+    flex: 1;
+}
+
+.source {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto Mono";
+}
+
+.note-title {
+    margin: 0px;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.summary {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/* Card: Respawn Journal */
+#read-action-mint {
+    display: flex;
+    background-color: #70D6B2;
+    border: #70D6B2;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 200;
+}
+
+/* Card: Cozy Input */
+#read-action-indigo {
+    display: flex;
+    background-color: #C6B5FF;
+    border: #C6B5FF;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 200;
+}
+
+/* Card: Patch Notes */
+#read-action-yellow {
+    display: flex;
+    background-color: #E8DD63;
+    border: #E8DD63;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 200;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SageSloth - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sagesloth-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="sagesloth">
+            <!-- ===== HEADER ===== -->
+            <header>
+                <div class="brand">
+                    SageSloth
+                </div>
+
+                <!-- Navigation -->
+                <nav>
+                    <a href="sagesloth-home.html" id="home">
+                        Home
+                    </a>
+                    <a href="sagesloth-practice.html">
+                        Practice
+                    </a>
+                    <a href="sagesloth-about.html">
+                        About
+                    </a>
+                    <a href="sagesloth-contact.html">
+                        Contact
+                    </a>
+                    <a id="player-login">
+                        Player Login
+                    </a>
+                </nav>
+            </header>
+
+            <!-- ===== HERO ===== -->
+            <div class="hero">
+                <div class="hero-copy">
+                    <div id="badge">
+                        ● Save point available
+                    </div>
+                    <h1 id="headline">
+                        Pause the game. Keep your calm.
+                    </h1>
+                    <p id="introduction">
+                        Tiny mindfulness quests for gamers who want steadier focus, softer tilt, and better
+                        breaks—without leaving the party.
+                    </p>
+                    <div class="hero-actions">
+                        <button id="primary-action">
+                            Start a 3-minute reset
+                        </button>
+                        <button id="secondary-action">
+                            Browse quests
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Image SageSloth mascot -->
+                <div>
+                    <img src="images/sloth-mascot.png" alt="SageSloth mascot">
+                </div>
+            </div>
+
+            <!-- ===== RESET-MODUS ===== -->
+            <div class="reset-modus">
+                <div id="section-heading">
+                    <div class="eyebrow green">
+                        Choose your reset
+                    </div>
+                    <h1 id="title">
+                        Three ways back to baseline
+                    </h1>
+                    <div id="helper">
+                        No streaks. No guilt. Just a useful pause between rounds.
+                    </div>
+                </div>
+
+                <!-- Reset-cards -->
+                <div id="reset-cards">
+                    <!-- Card: Respawn Breath -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-respawn.png" alt="Heart icon">
+                            <div class="duration">
+                                03 min
+                            </div>
+                        </div>
+                        <div class="title">
+                            Respawn Breath
+                        </div>
+                        <div class="description">
+                            A boxed-breathing checkpoint for shaky hands and racing thoughts.
+                        </div>
+                        <div id="action-green">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: Hands Off HUD -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-hud.png" alt="Plus icon">
+                            <div class="duration">
+                                05 min
+                            </div>
+                        </div>
+                        <div class="title">
+                            Hands Off HUD
+                        </div>
+                        <div class="description">
+                            Release your grip, reset your posture, and give your eyes a softer target.
+                        </div>
+                        <div id="action-salmon">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: Tilt Cooldown -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-cooldown.png" alt="Key icon">
+                            <div class="duration">
+                                07 min
+                            </div>
+                        </div>
+                        <div class="title">
+                            Tilt Cooldown
+                        </div>
+                        <div class="description">
+                            Name the frustration, lower the volume, and queue again with intention.
+                        </div>
+                        <div id="action-indigo">
+                            Start quest →
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== SESSION-PREVIEW ===== -->
+            <div class="session-preview">
+                <div class="session-console">
+                    <div id="console-header">
+                        <div id="quest">
+                            Quest 01 / respawn breath
+                        </div>
+                        <div id="timer">
+                            02:14
+                        </div>
+                    </div>
+                    <div id="prompt">
+                        Inhale while the ring grows.
+                    </div>
+                    <div class="stage">
+                        <div class="ring"></div>
+                    </div>
+                    <div id="progress-track">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+
+                <!-- Text: session-copy -->
+                <div class="session-copy">
+                    <div class="eyebrow" id="eyebrow-copy">
+                        Beginner friendly
+                    </div>
+                    <h1 id="title-copy">
+                        Mindfulness that speaks gamer.
+                    </h1>
+                    <div id="description-copy">
+                        Clear prompts, visible timers, and zero mystical jargon. Learn one practical skill at a time,
+                        then take it straight back into play.
+                    </div>
+                    <div id="feature-list">
+                        ✓ Audio optional ✓ Keyboard friendly
+                        ✓ No account needed ✓ Pause anytime
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== PLAYER-NOTES ===== -->
+            <div class="player-notes">
+                <div id="label">
+                    Player note
+                </div>
+                <!-- Quote -->
+                <div id="quote">
+                    “I used Respawn Breath after a rough ranked loss. Three minutes later I was laughing with my squad
+                    instead of rage-queueing.”
+                </div>
+                <!-- Attribution -->
+                <div id="attribution">
+                    — Mina, support main & recovering button-masher
+                </div>
+            </div>
+
+            <!-- ===== NEWSLETTER ===== -->
+            <div class="frame">
+                <div class="newsletter">
+                    <div class="title-newsletter">
+                        A calmer quest log, once a week.
+                    </div>
+                    <div class="description-newsletter">
+                        One tiny reset, one player story, no spam.
+                    </div>
+
+                    <!-- Form -->
+                    <form>
+                        <input type="text" placeholder="you@party.chat">
+                        <button id="subscribe">
+                            Join the party
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ===== FOOTER ===== -->
+            <footer>
+                <div id="footer-brand">
+                    <div class="brand">
+                        SageSloth
+                    </div>
+                    <div id="tagline">
+                        Mindful resets for people who play.
+                    </div>
+                </div>
+
+                <!-- Footer-links -->
+                <div id="footer-links">
+                    <img src="images/discord.png" alt="Discord">
+                    <img src="images/youtube.png" alt="Youtube">
+                    <img src="images/twitch.png" alt="Twitch">
+                </div>
+
+                <!-- Copyright -->
+                <div id="copyright">
+                    © 2026 SageSloth.gg
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

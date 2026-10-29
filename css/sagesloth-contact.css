@@ -1,0 +1,217 @@
+#contact {
+    color: #A8D672;
+}
+
+/* ===== CONTACT-HERO ===== */
+.contact-hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 160px 72px 160px;
+    gap: 24px;
+}
+
+#status-badge {
+    display: flex;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    background-color: #192B24;
+    color: #70D6B2;
+    text-transform: uppercase;
+    border-radius: 999px;
+    font-size: 13px;
+}
+
+#title {
+    text-align: center;
+    margin: 0px;
+    font-size: 56px;
+    line-height: 108%;
+    width: 900px;
+    height: 120px;
+    font-weight: 400;
+}
+
+#desciption {
+    margin: 0px;
+    font-size: 22px;
+    color: #9EAA9E;
+    line-height: 150%;
+    width: 680px;
+    height: 66px;
+    text-align: center;
+}
+
+/* ===== CONTACT-ROUTES ===== */
+.contact-routes {
+    display: flex;
+    justify-content: center;
+    padding: 0px 400px 88px 400px;
+    gap: 24px;
+}
+
+/* Email */
+#contact-route-green {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    background-color: #A8D672;
+    color: #142018;
+    border-radius: 16px;
+    width: 288px;
+    height: 64px;
+}
+
+/* Discord */
+#contact-route-indigo {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    background-color: #C6B5FF;
+    color: #142018;
+    border-radius: 16px;
+    width: 288px;
+    height: 64px;
+}
+
+.route-icon-tile {
+    width: 56px;
+    height: 56px;
+}
+
+.route-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.route-title {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.route-detail {
+    margin: 0px;
+    font-size: 14px;
+    opacity: 68%;
+}
+
+/* ===== FORM ===== */
+.message-form-region {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #192B24;
+    border-radius: 36px;
+    padding: 56px;
+    gap: 24px;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#eyebrow {
+    text-transform: uppercase;
+    color: #FFB893;
+    font-size: 13px;
+    font-family: "Roboto Mono";
+}
+
+#heading {
+    font-size: 42px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+#form-note {
+    color: #9EAA9E;
+    font-size: 17px;
+}
+
+/* Name / Email */
+.identity-fields {
+    display: flex;
+    gap: 16px;
+}
+
+/* Name / Email / Gamer tag / Message */
+input,
+textarea {
+    all: unset;
+}
+
+input[type=text],
+textarea {
+    background-color: #13201B;
+    border-radius: 16px;
+    border: 1px solid #2B4037;
+    padding: 16px 24px 16px 24px;
+}
+
+/* Name / Email */
+input {
+    flex: 1;
+}
+
+/* Message */
+textarea {
+    height: 184px;
+}
+
+/* Option */
+#preferred-reset {
+    background-color: #13201B;
+    border-radius: 16px;
+    border: 1px solid #2B4037;
+    padding: 24px;
+    color: #53645C;
+    font-size: 17px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a3d977' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+/* Action */
+#form-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#privacy-note {
+    width: 430px;
+    height: 40;
+    color: #9EAA9E;
+    font-size: 14px;
+}
+
+#send-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8D672;
+    color: #142018;
+    border: #A8D672;
+    border-radius: 16px;
+    width: 213px;
+    height: 60px;
+    font-size: 17px;
+}

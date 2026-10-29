@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SageSloth - Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sagesloth-practice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="sagesloth">
+            <!-- ===== HEADER ===== -->
+            <header>
+                <div class="brand">
+                    SageSloth
+                </div>
+
+                <!-- Navigation -->
+                <nav>
+                    <a href="sagesloth-home.html">
+                        Home
+                    </a>
+                    <a href="sagesloth-practice.html" id="practice">
+                        Practice
+                    </a>
+                    <a href="sagesloth-about.html">
+                        About
+                    </a>
+                    <a href="sagesloth-contact.html">
+                        Contact
+                    </a>
+                    <a id="player-login">
+                        Player Login
+                    </a>
+                </nav>
+            </header>
+
+            <!-- ===== PRACTICE-HERO ===== -->
+            <div class="practice-hero">
+                <div class="hero-copy">
+                    <div id="eyebrow">
+                        Mindfulness quest log
+                    </div>
+                    <h1 id="hero-title">
+                        Small resets. Better games.
+                    </h1>
+                    <p class="introduction">
+                        Six beginner-friendly practices for queues, tough rounds, and the moment you finally log off.
+                    </p>
+                </div>
+                <img src="images/practice-mascot.png" alt="SageSloth mascot gaming">
+            </div>
+
+            <!-- ===== QUEST-LIBRARY ===== -->
+            <div class="quest-library">
+                <div class="library-heading">
+                    <h1 class="title">
+                        Choose your next reset
+                    </h1>
+                    <p class="description">
+                        No streaks to protect. No perfect score required.
+                    </p>
+                    <div id="quest-count">
+                        06 quests available
+                    </div>
+                </div>
+
+                <!-- Quest-filters -->
+                <div class="quest-filters">
+                    <button id="filter">
+                        All quests
+                    </button>
+                    <button>
+                        Under 5 min
+                    </button>
+                    <button>
+                        Before play
+                    </button>
+                    <button>
+                        After play
+                    </button>
+                    <button>
+                        Ranked reset
+                    </button>
+                </div>
+
+                <!-- Quest-row -->
+                <div class="quest-row">
+                    <!-- Card: Loading Screen Scan -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile.png" alt="Hourglass icon">
+                            <div class="duration">
+                                04 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            Loading Screen Scan
+                        </h1>
+                        <div class="tag indigo">
+                            Beginner
+                        </div>
+                        <p class="description">
+                            Use queue time to release tension from head to hands.
+                        </p>
+                        <div class="action indigo">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: Spawn Point Breathing -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-spawn-point.png" alt="Hourglass icon">
+                            <div class="duration">
+                                03 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            Spawn Point Breathing
+                        </h1>
+                        <div class="tag green">
+                            Beginner
+                        </div>
+                        <p class="description">
+                            Arrive in the room before you enter the match.
+                        </p>
+                        <div class="action green">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: Tilt Reset -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-tilt-reset.png" alt="Hourglass icon">
+                            <div class="duration">
+                                05 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            Tilt Reset
+                        </h1>
+                        <div class="tag salmon">
+                            Beginner
+                        </div>
+                        <p class="description">
+                            Unclench, name the feeling, and choose your next move.
+                        </p>
+                        <div class="action salmon">
+                            Start quest →
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quest-row -->
+                <div class="quest-row">
+                    <!-- Card: One-Match Focus -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-match-focus.png" alt="Hourglass icon">
+                            <div class="duration">
+                                12 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            One-Match Focus
+                        </h1>
+                        <div class="tag mint">
+                            Medior
+                        </div>
+                        <p class="description">
+                            Practice single-task attention through one complete round.
+                        </p>
+                        <div class="action mint">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: GG Cooldown -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-gg-cooldown.png" alt="Hourglass icon">
+                            <div class="duration">
+                                07 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            GG Cooldown
+                        </h1>
+                        <div class="tag yellow">
+                            Beginner
+                        </div>
+                        <p class="description">
+                            Close the session without carrying the lobby into your night.
+                        </p>
+                        <div class="action yellow">
+                            Start quest →
+                        </div>
+                    </div>
+
+                    <!-- Card: Boss Fight Grounding -->
+                    <div class="course-card">
+                        <div class="card-header">
+                            <img src="images/icon-tile-boss-grounding.png" alt="Hourglass icon">
+                            <div class="duration">
+                                08 min
+                            </div>
+                        </div>
+                        <h1 class="card-title">
+                            Boss Fight Grounding
+                        </h1>
+                        <div class="tag white">
+                            Advanced
+                        </div>
+                        <p class="description">
+                            A five-senses reset for high-stakes moments and ranked nerves.
+                        </p>
+                        <div class="action white">
+                            Start quest →
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== PROGRESS-CALLOUT ===== -->
+            <div class="frame">
+                <div class="progress-callout">
+                    <div class="progress-marker">
+                        0%
+                    </div>
+                    <div class="progress-copy">
+                        <h1 class="title">
+                            Your pace is the right pace.
+                        </h1>
+                        <p class="introduction">
+                            Start with one three-minute quest. We’ll save your place, not judge your speed.
+                        </p>
+                        <button id="start-action">
+                            Start Spawn Point Breathing
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== FOOTER ===== -->
+            <footer>
+                <div id="footer-brand">
+                    <div class="brand">
+                        SageSloth
+                    </div>
+                    <div id="tagline">
+                        Mindful resets for people who play.
+                    </div>
+                </div>
+
+                <!-- Footer-links -->
+                <div id="footer-links">
+                    <img src="images/discord.png" alt="Discord">
+                    <img src="images/youtube.png" alt="Youtube">
+                    <img src="images/twitch.png" alt="Twitch">
+                </div>
+
+                <!-- Copyright -->
+                <div id="copyright">
+                    © 2026 SageSloth.gg
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
